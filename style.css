@@ -1,0 +1,96 @@
+body{
+  text-align:center;
+    background-color:#00ff00;
+}   
+img{
+    height: 150px;
+    width: 150px;
+}
+h2{
+  color:blue;
+}
+h1{
+    color:blue;
+}
+h4,#id{
+    color: blue;
+}
+.menu{
+    list-style: none;
+    color: yellow;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    z-index: 999;
+    cursor:pointer;
+}
+.line{
+    height: 10px;
+    background-color:red;
+    width: 70px;
+    margin: 8px auto;
+}
+.links{
+    float: left;
+    color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 5;
+    color: cyan;
+}
+a{
+    color: yellow;
+}
+.links:hover{
+    background-color:  black;
+}
+#welcome{
+    background: linear-gradient(to top,black,#ff0000);
+}
+#ssa{
+    height: 200px;
+    border-radius: 50%;
+}
+h3{
+    color: red;
+}
+.qqq{
+    height: 240px;
+    width: 160px;
+}
+#movies{
+    background: linear-gradient(to right,white,#00ff00);
+}
+#work{
+    background: black;
+}
+#news{
+    background: black;
+}
+#imgs{
+    height: 250px;
+    width: 175px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+#imgs:hover{
+    transform: scale(0.9);
+}
+#contact{
+    background-color: black;
+}
+.contact_1 a{
+    color: yellow;
+    text-shadow: none;
+}
+.contact_1 h3{
+   display: inline;
+}
+#contact iframe{
+    width:100%; 
+}
